@@ -1,0 +1,41 @@
+{
+  "name": "big-image-poll",
+  "version": "0.0.0",
+  "description": "A big image poll bot using Discord.js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"No tests at this time, blame the dev\"",
+    "dev": "tsx watch src/main.ts",
+    "start": "node dist/index.js",
+    "build": "tsup src/index.ts --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mster/big-image-poll.git"
+  },
+  "keywords": [
+    "big",
+    "image",
+    "poll",
+    "bot",
+    "discord"
+  ],
+  "author": "@mster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mster/big-image-poll/issues"
+  },
+  "homepage": "https://github.com/mster/big-image-poll#readme",
+  "dependencies": {
+    "@discordjs/builders": "^1.10.0",
+    "@discordjs/rest": "^2.4.2",
+    "@types/node": "^22.10.5",
+    "discord.js": "^14.17.2",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
